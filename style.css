@@ -13,16 +13,22 @@ h1{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 200s;
 }
+main{
+  display: flex  ;
+  flex-wrap: wrap;
+  
+}
 header{
   background-color: aqua;
+  flex: 1 1 100%;
 }
 aside{
   background-color: chartreuse;
+  flex: 0 0 250px;
 }
 article{
   background-color: coral;
+flex: 1 1 0px;
 
 }
-main{
-  display: flex;
-}
+
